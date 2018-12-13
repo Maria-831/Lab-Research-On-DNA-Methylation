@@ -1,0 +1,491 @@
+/home/AD/h5li/.local/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+The shortest length of DNA sequence is 1407bp
+The longest length of DNA sequence is 5829bp
+Total Number of input sequence is 58959
+
+Ground Truth Motif is:  ['TCCAC']
+Ratio of this motif:  0.49408911277328316
+(58959, 600, 4)
+Strat Training on CNN
+2018-11-17 17:57:54.847734: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9992700063874441 Train Accuracy:  0.9992916666666667
+	Parameter:  0.1 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9999166666666667
+	Parameter:  1 Test_accuracy:  0.9994525047905831 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TGTGA']
+Ratio of this motif:  0.6168863108261673
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8306414818870335 Train Accuracy:  0.8339583333333334
+	Parameter:  0.1 Test_accuracy:  0.8321927183137148 Train Accuracy:  0.85825
+	Parameter:  1 Test_accuracy:  0.8294552422666301 Train Accuracy:  0.8605416666666666
+========================================================
+
+Ground Truth Motif is:  ['GGAAA']
+Ratio of this motif:  0.6495530792584677
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8950225023607157
+	 CNN Test Accuracy:  0.9023066472004356
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.6741491011953645 Train Accuracy:  0.69575
+	Parameter:  0.1 Test_accuracy:  0.687927730632357 Train Accuracy:  0.7315208333333333
+	Parameter:  1 Test_accuracy:  0.6892964686558992 Train Accuracy:  0.7279166666666667
+========================================================
+
+Ground Truth Motif is:  ['AGATA']
+Ratio of this motif:  0.39164504146949575
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8088329227119263 Train Accuracy:  0.8086875
+	Parameter:  0.1 Test_accuracy:  0.8205128205128205 Train Accuracy:  0.8296666666666667
+	Parameter:  1 Test_accuracy:  0.8191440824892782 Train Accuracy:  0.8330416666666667
+========================================================
+
+Ground Truth Motif is:  ['GTCCC']
+Ratio of this motif:  0.4006343391170135
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.776363102466238
+	 CNN Test Accuracy:  0.7746947080179988
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9995625
+	Parameter:  0.1 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9995625
+	Parameter:  1 Test_accuracy:  0.9993612555890136 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['CGCTC']
+Ratio of this motif:  0.1885208365135094
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8106017758369165
+	 CNN Test Accuracy:  0.8141112617915812
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.999817501596861 Train Accuracy:  0.9997708333333334
+	Parameter:  0.1 Test_accuracy:  0.999635003193722 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  0.9997262523952916 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TTCGT']
+Ratio of this motif:  0.14744144235824896
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9572953736654805 Train Accuracy:  0.9608333333333333
+	Parameter:  0.1 Test_accuracy:  0.9829363993065061 Train Accuracy:  0.9877708333333334
+	Parameter:  1 Test_accuracy:  0.9751802171730998 Train Accuracy:  0.9933125
+========================================================
+
+Ground Truth Motif is:  ['TACGT']
+Ratio of this motif:  0.12344171373327227
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8779710081817418
+	 CNN Test Accuracy:  0.8723202160126157
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9516379231681723 Train Accuracy:  0.9501041666666666
+	Parameter:  0.1 Test_accuracy:  0.9796514280500046 Train Accuracy:  0.978375
+	Parameter:  1 Test_accuracy:  0.9766402043982115 Train Accuracy:  0.9852291666666667
+========================================================
+
+Ground Truth Motif is:  ['TACCT']
+Ratio of this motif:  0.31460845672416426
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9659640478145817 Train Accuracy:  0.9697291666666666
+	Parameter:  0.1 Test_accuracy:  0.979560178848435 Train Accuracy:  0.9920416666666667
+	Parameter:  1 Test_accuracy:  0.9738114791495575 Train Accuracy:  0.9978541666666667
+========================================================
+
+Ground Truth Motif is:  ['AAGCC']
+Ratio of this motif:  0.5585406808120897
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7781496619838002
+	 CNN Test Accuracy:  0.7698778814991262
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9997262523952916 Train Accuracy:  0.9995
+	Parameter:  0.1 Test_accuracy:  0.9997262523952916 Train Accuracy:  0.9997291666666667
+	Parameter:  1 Test_accuracy:  0.9997262523952916 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['CGGAA']
+Ratio of this motif:  0.18333078919248968
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.869671407677662
+	 CNN Test Accuracy:  0.8727272731154713
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9412355141892509 Train Accuracy:  0.9454375
+	Parameter:  0.1 Test_accuracy:  0.9721689935213067 Train Accuracy:  0.9704375
+	Parameter:  1 Test_accuracy:  0.9721689935213067 Train Accuracy:  0.9704375
+========================================================
+
+Ground Truth Motif is:  ['CCATT']
+Ratio of this motif:  0.4570973049067996
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7789864056943787
+	 CNN Test Accuracy:  0.7860244235157805
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9994525047905831 Train Accuracy:  0.9996458333333333
+	Parameter:  0.1 Test_accuracy:  0.9994525047905831 Train Accuracy:  0.9996458333333333
+	Parameter:  1 Test_accuracy:  0.9993612555890136 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['GACGA']
+Ratio of this motif:  0.1285299954205465
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8723851727844619
+	 CNN Test Accuracy:  0.8687245601553121
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8670499133132585 Train Accuracy:  0.8726041666666666
+	Parameter:  0.1 Test_accuracy:  0.8970709006296195 Train Accuracy:  0.9025
+	Parameter:  1 Test_accuracy:  0.8976183958390364 Train Accuracy:  0.9061666666666667
+========================================================
+
+Ground Truth Motif is:  ['TCACA']
+Ratio of this motif:  0.6184976000271375
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9453417282598777 Train Accuracy:  0.9480833333333333
+	Parameter:  0.1 Test_accuracy:  0.9558353864403687 Train Accuracy:  0.9736041666666667
+	Parameter:  1 Test_accuracy:  0.9540104024089789 Train Accuracy:  0.9775833333333334
+========================================================
+
+Ground Truth Motif is:  ['TGAAC']
+Ratio of this motif:  0.42649977102732406
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.5725593063262983
+	 CNN Test Accuracy:  0.5725237424693891
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9474404598959759 Train Accuracy:  0.9458125
+	Parameter:  0.1 Test_accuracy:  0.9642303129847614 Train Accuracy:  0.9618958333333333
+	Parameter:  1 Test_accuracy:  0.9642303129847614 Train Accuracy:  0.9618958333333333
+========================================================
+
+Ground Truth Motif is:  ['TATTG']
+Ratio of this motif:  0.2929662986142913
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.900173373482982 Train Accuracy:  0.9055625
+	Parameter:  0.1 Test_accuracy:  0.927000638744411 Train Accuracy:  0.9324375
+	Parameter:  1 Test_accuracy:  0.9280043799616753 Train Accuracy:  0.9343125
+========================================================
+
+Ground Truth Motif is:  ['GGGTG']
+Ratio of this motif:  0.502993605726013
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.6665754174650972 Train Accuracy:  0.6978125
+	Parameter:  0.1 Test_accuracy:  0.6756090884204763 Train Accuracy:  0.7226875
+	Parameter:  1 Test_accuracy:  0.6723241171639748 Train Accuracy:  0.7233125
+========================================================
+
+Ground Truth Motif is:  ['GGATA']
+Ratio of this motif:  0.28981156396818125
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7388905216069166
+	 CNN Test Accuracy:  0.7390773436269411
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.727347385710375 Train Accuracy:  0.728375
+	Parameter:  0.1 Test_accuracy:  0.7570946254220275 Train Accuracy:  0.7728333333333334
+	Parameter:  1 Test_accuracy:  0.7553608905922073 Train Accuracy:  0.7721458333333333
+========================================================
+
+Ground Truth Motif is:  ['ATCTC']
+Ratio of this motif:  0.4834885259247952
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.6219950709630554
+	 CNN Test Accuracy:  0.6229986432772964
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9993333333333333
+	Parameter:  0.1 Test_accuracy:  0.9999087507984306 Train Accuracy:  0.9998333333333334
+	Parameter:  1 Test_accuracy:  0.999635003193722 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TGCTA']
+Ratio of this motif:  0.44049254566732815
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.5607091953253045
+	 CNN Test Accuracy:  0.5563093595297721
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9183319645953097 Train Accuracy:  0.9126458333333334
+	Parameter:  0.1 Test_accuracy:  0.9255406515192992 Train Accuracy:  0.9325625
+	Parameter:  1 Test_accuracy:  0.9244456611004653 Train Accuracy:  0.9363541666666667
+========================================================
+
+Ground Truth Motif is:  ['TTCTT']
+Ratio of this motif:  0.6368832578571549
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7623193653401037
+	 CNN Test Accuracy:  0.7687245572599983
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9757277123825167 Train Accuracy:  0.9773541666666666
+	Parameter:  0.1 Test_accuracy:  0.9822064056939501 Train Accuracy:  0.9902916666666667
+	Parameter:  1 Test_accuracy:  0.9724427411260151 Train Accuracy:  0.9963333333333333
+========================================================
+
+Ground Truth Motif is:  ['TTTAA']
+Ratio of this motif:  0.5923777540324633
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.9168004719550376
+	 CNN Test Accuracy:  0.9189959318052315
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9643215621863309 Train Accuracy:  0.9672708333333333
+	Parameter:  0.1 Test_accuracy:  0.9730814855370016 Train Accuracy:  0.9765625
+	Parameter:  1 Test_accuracy:  0.9661465462177206 Train Accuracy:  0.9829791666666666
+========================================================
+
+Ground Truth Motif is:  ['GGGTG']
+Ratio of this motif:  0.502993605726013
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.6685828998996258 Train Accuracy:  0.6963125
+	Parameter:  0.1 Test_accuracy:  0.6855552513915503 Train Accuracy:  0.7220625
+	Parameter:  1 Test_accuracy:  0.6834565197554522 Train Accuracy:  0.7211041666666667
+========================================================
+
+Ground Truth Motif is:  ['TCGCT']
+Ratio of this motif:  0.18221136722128936
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8192405956981275
+	 CNN Test Accuracy:  0.8134328355782715
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9736289807464185 Train Accuracy:  0.9748541666666667
+	Parameter:  0.1 Test_accuracy:  0.9927913130760105 Train Accuracy:  0.9970625
+	Parameter:  1 Test_accuracy:  0.9854913769504516 Train Accuracy:  0.9997916666666666
+========================================================
+
+Ground Truth Motif is:  ['AGGCT']
+Ratio of this motif:  0.6389694533489374
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7360184542974102
+	 CNN Test Accuracy:  0.727069200783604
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9155944885482252 Train Accuracy:  0.9205208333333333
+	Parameter:  0.1 Test_accuracy:  0.9214344374486724 Train Accuracy:  0.9426458333333333
+	Parameter:  1 Test_accuracy:  0.9186969614015877 Train Accuracy:  0.945625
+========================================================
+
+Ground Truth Motif is:  ['TGCCG']
+Ratio of this motif:  0.2005461422344341
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.797869692426968
+	 CNN Test Accuracy:  0.8042062383493866
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9483529519116708 Train Accuracy:  0.9446458333333333
+	Parameter:  0.1 Test_accuracy:  0.9645040605894698 Train Accuracy:  0.9647916666666667
+	Parameter:  1 Test_accuracy:  0.9597591021078565 Train Accuracy:  0.9741041666666667
+========================================================
+
+Ground Truth Motif is:  ['GCGCA']
+Ratio of this motif:  0.14303159822927797
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8573463885932261
+	 CNN Test Accuracy:  0.8558344633964218
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9355780636919427 Train Accuracy:  0.93325
+	Parameter:  0.1 Test_accuracy:  0.9679715302491103 Train Accuracy:  0.9768333333333333
+	Parameter:  1 Test_accuracy:  0.9670590382334154 Train Accuracy:  0.9809791666666666
+========================================================
+
+Ground Truth Motif is:  ['AGGGC']
+Ratio of this motif:  0.48247086958734037
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7759108063434308
+	 CNN Test Accuracy:  0.780732699132839
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9157769869513642 Train Accuracy:  0.9161666666666667
+	Parameter:  0.1 Test_accuracy:  0.9326580892417191 Train Accuracy:  0.9341666666666667
+	Parameter:  1 Test_accuracy:  0.9326580892417191 Train Accuracy:  0.9341666666666667
+========================================================
+
+Ground Truth Motif is:  ['CATGG']
+Ratio of this motif:  0.5186315914449023
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.603247472165535
+	 CNN Test Accuracy:  0.6018317486570195
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9370380509170545 Train Accuracy:  0.9325416666666667
+	Parameter:  0.1 Test_accuracy:  0.9370380509170545 Train Accuracy:  0.9325416666666667
+	Parameter:  1 Test_accuracy:  0.9373117985217629 Train Accuracy:  0.9373333333333334
+========================================================
+
+Ground Truth Motif is:  ['GCGTT']
+Ratio of this motif:  0.15330992723757186
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8473959160699199
+	 CNN Test Accuracy:  0.844572591571342
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9262706451318551 Train Accuracy:  0.9253958333333333
+	Parameter:  0.1 Test_accuracy:  0.9613103385345378 Train Accuracy:  0.9686041666666667
+	Parameter:  1 Test_accuracy:  0.9617665845423853 Train Accuracy:  0.972125
+========================================================
+
+Ground Truth Motif is:  ['CCCAA']
+Ratio of this motif:  0.4715310639597008
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8790791289742581
+	 CNN Test Accuracy:  0.8844640443412387
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9994375
+	Parameter:  0.1 Test_accuracy:  0.9993612555890136 Train Accuracy:  0.9997291666666667
+	Parameter:  1 Test_accuracy:  0.9994525047905831 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['ACTAA']
+Ratio of this motif:  0.33485981783951557
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.6687849130175751
+	 CNN Test Accuracy:  0.6586838557891639
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8826535267816407 Train Accuracy:  0.8750208333333334
+	Parameter:  0.1 Test_accuracy:  0.9048270827630258 Train Accuracy:  0.9162083333333333
+	Parameter:  1 Test_accuracy:  0.9037320923441919 Train Accuracy:  0.9166041666666667
+========================================================
+
+Ground Truth Motif is:  ['CTCTC']
+Ratio of this motif:  0.6098814430366866
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9989050095811661 Train Accuracy:  0.9995416666666667
+	Parameter:  0.1 Test_accuracy:  0.9994525047905831 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  0.9994525047905831 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['CATAT']
+Ratio of this motif:  0.35906307773198326
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9992700063874441 Train Accuracy:  0.9994166666666666
+	Parameter:  0.1 Test_accuracy:  0.9992700063874441 Train Accuracy:  0.999625
+	Parameter:  1 Test_accuracy:  0.9993612555890136 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['ACGTC']
+Ratio of this motif:  0.1478315439542733
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8531852802230329
+	 CNN Test Accuracy:  0.8491180423480361
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9953462907199562 Train Accuracy:  0.9951458333333333
+	Parameter:  0.1 Test_accuracy:  0.9997262523952916 Train Accuracy:  0.999875
+	Parameter:  1 Test_accuracy:  0.9997262523952916 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TAGTG']
+Ratio of this motif:  0.3222069573771604
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.890044712108769 Train Accuracy:  0.8875833333333333
+	Parameter:  0.1 Test_accuracy:  0.913130760105849 Train Accuracy:  0.9108958333333333
+	Parameter:  1 Test_accuracy:  0.9140432521215439 Train Accuracy:  0.9119791666666667
+========================================================
+
+Ground Truth Motif is:  ['ACAGA']
+Ratio of this motif:  0.70730507640903
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  1.0
+	 CNN Test Accuracy:  1.0
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8610274660096724 Train Accuracy:  0.8762708333333333
+	Parameter:  0.1 Test_accuracy:  0.8642211880646045 Train Accuracy:  0.8930208333333334
+	Parameter:  1 Test_accuracy:  0.8649511816771603 Train Accuracy:  0.893875
+========================================================
+
+Ground Truth Motif is:  ['AGTGG']
+Ratio of this motif:  0.5253311623331468

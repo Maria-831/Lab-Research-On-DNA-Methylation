@@ -1,0 +1,141 @@
+/home/AD/h5li/.local/lib/python3.5/site-packages/h5py/__init__.py:34: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+The shortest length of DNA sequence is 1407bp
+The longest length of DNA sequence is 5829bp
+Total Number of input sequence is 58959
+
+Ground Truth Motif is:  ['CATACA']
+Ratio of this motif:  0.14211570752556862
+(58959, 600, 4)
+Strat Training on CNN
+2018-11-19 10:00:11.245361: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+	 CNN Train Accuracy:  0.8573237755070596
+	 CNN Test Accuracy:  0.8601085465992807
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['AGAGTC']
+Ratio of this motif:  0.17344256178022016
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8250073486400612
+	 CNN Test Accuracy:  0.8312075972718818
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TTCCTC']
+Ratio of this motif:  0.2732746484845401
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7608267950969602
+	 CNN Test Accuracy:  0.7715739458192802
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['TAATCT']
+Ratio of this motif:  0.10641293101986125
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8927836469899346
+	 CNN Test Accuracy:  0.8959972860855195
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['ACCGGA']
+Ratio of this motif:  0.0367204328431622
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.9628214165290339
+	 CNN Test Accuracy:  0.9646540056898927
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.9614015877361073 Train Accuracy:  0.9637083333333333
+	Parameter:  0.1 Test_accuracy:  0.9738114791495575 Train Accuracy:  0.991625
+	Parameter:  1 Test_accuracy:  0.9694315174742221 Train Accuracy:  0.9979166666666667
+========================================================
+
+Ground Truth Motif is:  ['TTACAG']
+Ratio of this motif:  0.1870282738852423
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.813654761709447
+	 CNN Test Accuracy:  0.8109226568906569
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8842960124098914 Train Accuracy:  0.885875
+	Parameter:  0.1 Test_accuracy:  0.9357605620950816 Train Accuracy:  0.9482291666666667
+	Parameter:  1 Test_accuracy:  0.9348480700793868 Train Accuracy:  0.9490833333333333
+========================================================
+
+Ground Truth Motif is:  ['CATTTA']
+Ratio of this motif:  0.18838514900184875
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8230624831677961
+	 CNN Test Accuracy:  0.8140434160970121
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['GGCTGT']
+Ratio of this motif:  0.24400006784375583
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.7515547600855521
+	 CNN Test Accuracy:  0.7665535952375249
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.7829181494661922 Train Accuracy:  0.7860833333333334
+	Parameter:  0.1 Test_accuracy:  0.8068254402773976 Train Accuracy:  0.8336458333333333
+	Parameter:  1 Test_accuracy:  0.8060954466648417 Train Accuracy:  0.8333958333333333
+========================================================
+
+Ground Truth Motif is:  ['TGCTCT']
+Ratio of this motif:  0.2809070710154514
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.738551299984569
+	 CNN Test Accuracy:  0.7416553612965257
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  0.1 Test_accuracy:  1.0 Train Accuracy:  1.0
+	Parameter:  1 Test_accuracy:  1.0 Train Accuracy:  1.0
+========================================================
+
+Ground Truth Motif is:  ['AGAAGT']
+Ratio of this motif:  0.1935243135059957
+(58959, 600, 4)
+Strat Training on CNN
+	 CNN Train Accuracy:  0.8067572736999457
+	 CNN Test Accuracy:  0.8018317497569153
+
+Training for SVM
+	Parameter:  0.001 Test_accuracy:  0.8115703987590108 Train Accuracy:  0.8053125
+	Parameter:  0.1 Test_accuracy:  0.8115703987590108 Train Accuracy:  0.8053125
+	Parameter:  1 Test_accuracy:  0.8115703987590108 Train Accuracy:  0.8053125
+========================================================
+Exception ignored in: <bound method BaseSession.__del__ of <tensorflow.python.client.session.Session object at 0x7fa77f880668>>
+Traceback (most recent call last):
+  File "/home/AD/h5li/.local/lib/python3.5/site-packages/tensorflow/python/client/session.py", line 686, in __del__
+TypeError: 'NoneType' object is not callable
